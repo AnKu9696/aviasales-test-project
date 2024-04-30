@@ -1,0 +1,28 @@
+.filter {
+  background-color: white;
+  font-size: 13px;
+  padding: 14px 20px 20px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px 0px #0000001a;
+  height: fit-content;
+  &__title {
+    text-transform: uppercase;
+    font-family: 'Open Sans Semibold';
+    margin-top: 0;
+    margin-bottom: 18px;
+  }
+  &__item {
+    color: #4a4a4a;
+    font-family: 'Open Sans Light';
+    display: flex;
+    &__text {
+      margin: 5px 0 5px 0;
+      margin-left: 10px;
+    }
+
+    &__checkbox {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

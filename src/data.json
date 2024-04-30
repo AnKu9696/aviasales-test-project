@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "price": "13 300",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 134100000
+    },
+    "returnFlight": {
+      "fromAirport": "DXB",
+      "toAirport": "LHR",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 59400000
+    },
+    "transfer": ["HKG"]
+  },
+  {
+    "id": 2,
+    "price": "15 100",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 62100000
+    },
+    "returnFlight": {
+      "fromAirport": "DXB",
+      "toAirport": "LHR",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 145800000
+    },
+    "transfer": ["HKG", "JNB"]
+  },
+  {
+    "id": 3,
+    "price": "15 400",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 72900000
+    },
+    "returnFlight": {
+      "fromAirport": "DXB",
+      "toAirport": "LHR",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 48600000
+    },
+    "transfer": ["HKG"]
+  },
+  {
+    "id": 4,
+    "price": "21 400",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 76500000
+    },
+    "returnFlight": {
+      "fromAirport": "DXB",
+      "toAirport": "LHR",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 45000000
+    },
+    "transfer": ["HKG", "JNB", "JNB"]
+  },
+  {
+    "id": 5,
+    "price": "23 900",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 40500000
+    },
+    "returnFlight": {
+      "fromAirport": "DXB",
+      "toAirport": "LHR",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 34200000
+    },
+    "transfer": ["HKG", "JNB", "JNB"]
+  },
+  {
+    "id": 6,
+    "price": "25 500",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 12600000
+    },
+    "returnFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 21300000
+    },
+    "transfer": []
+  },
+  {
+    "id": 7,
+    "price": "28 700",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 23400000
+    },
+    "returnFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 18300000
+    },
+    "transfer": ["HKG", "JNB"]
+  },
+  {
+    "id": 8,
+    "price": "30 200",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 29100000
+    },
+    "returnFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 41100000
+    },
+    "transfer": ["HKG"]
+  },
+  {
+    "id": 9,
+    "price": "31 800",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 18600000
+    },
+    "returnFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 25500000
+    },
+    "transfer": []
+  },
+  {
+    "id": 10,
+    "price": "23 900",
+    "departureFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "10:45",
+      "arrivalTime": "8:00",
+      "travelTime": 40500000
+    },
+    "returnFlight": {
+      "fromAirport": "LHR",
+      "toAirport": "DXB",
+      "departureTime": "11:20",
+      "arrivalTime": "0:50",
+      "travelTime": 34200000
+    },
+    "transfer": ["HKG", "JNB", "JNB"]
+  }
+]

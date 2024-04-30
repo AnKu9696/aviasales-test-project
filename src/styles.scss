@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Open Sans Semibold';
+  src: url('../public/fonts/open_sans/OpenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('../public/fonts/open_sans/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../public/fonts/open_sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: #f3f7fa;
+  height: 100%;
+}
+
+.app {
+  &__logo {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    img {
+      height: 65px;
+      width: 60px;
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    &__body {
+      display: flex;
+    }
+  }
+}
