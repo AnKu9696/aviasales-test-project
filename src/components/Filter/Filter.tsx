@@ -12,6 +12,7 @@ const Filter = () => {
   const handleFilterClick = (filterValue: string) => {
     dispatch(addFilter(filterValue));
   };
+  console.log(appliedFilters);
 
   return (
     <div className='filter'>
@@ -29,7 +30,7 @@ const Filter = () => {
         <input
           type='checkbox'
           className='filter__item__checkbox'
-          checked={appliedFilters.includes('0')}
+          checked={appliedFilters.includes('0' || 'all')}
           onChange={() => handleFilterClick('0')}
         />
         <label className='filter__item__text'>Без пересадок</label>

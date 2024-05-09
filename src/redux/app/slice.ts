@@ -1,29 +1,18 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { CounterState } from '../../types';
+import { addFilterToState } from '../../components/helpers/addFiltersToState';
 
 const initialState: CounterState = {
-  filters: ['all'],
+  filters: ['all', '0', '1', '2', '3'],
   sort: 'cheapest',
 };
 
-export const appSlice = createSlice({
+const appSlice = createSlice({
   name: 'app',
   initialState,
   reducers: {
     addFilter: (state, { payload }) => {
-      const isAllOrNone = payload === 'all' || state.filters.includes('all');
-
-      if (isAllOrNone) {
-        state.filters = [payload];
-        return;
-      }
-
-      const filterIndex = state.filters.indexOf(payload);
-      if (filterIndex !== -1) {
-        state.filters.splice(filterIndex, 1);
-      } else {
-        state.filters.push(payload);
-      }
+      state.filters = addFilterToState(state, payload);
     },
     addSort: (state, { payload }) => {
       state.sort = payload;
