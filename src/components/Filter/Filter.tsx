@@ -12,7 +12,6 @@ const Filter = () => {
   const handleFilterClick = (filterValue: string) => {
     dispatch(addFilter(filterValue));
   };
-  console.log(appliedFilters);
 
   return (
     <div className='filter'>
