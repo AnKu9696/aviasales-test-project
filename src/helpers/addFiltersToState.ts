@@ -1,4 +1,4 @@
-import { CounterState, FilterType } from '../../types';
+import { CounterState, FilterType } from '../types';
 
 export const addFilterToState = (
   state: CounterState,

@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { CounterState } from '../../types';
-import { addFilterToState } from '../../components/helpers/addFiltersToState';
+import { addFilterToState } from '../../helpers/addFiltersToState';
 
 const initialState: CounterState = {
   filters: ['all', '0', '1', '2', '3'],
